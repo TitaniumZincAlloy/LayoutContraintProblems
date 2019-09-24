@@ -1,0 +1,16 @@
+Legend
+[Title]
+[Description]
+[Keyboard]
+[Button]
+[Container]
+
+[Title] is of fixed height
+[Button] of fixed height
+[Description]'s height depends on the its content
+[Description]'s content will scale down to 50%
+[Description]'s content will truncate if it hits the scaled down limit
+[Container]'s height is dependent on its content
+[Container] is centered in the screen and will try to be centered whenever possible
+[Container] has to be at all times, at least 40 pts from the top of the screen
+[Container] has to be at all times, at least 10 pts from the bottom of the view

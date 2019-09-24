@@ -1,0 +1,15 @@
+Legend
+[Image] = Image on the top left corner
+[NameLbl] = Label right of the image
+[DaysLeftLbl] = Label on the top right corner
+[DescriptionLbl] = Label underneath [Image], [NameLbl], and [DaysLeftLbl]
+[StatusLbl] = Label underneath [DescriptionLbl]
+
+[Image] has 5pt corner radius
+[NameLbl] is contrained to [Image] to the right
+[DaysLeftLbl] is constrained to the top left corner
+[NameLbl] and [DaysLeftLbl] must have at the very least 10 pts of padding in between them
+If 10 pts of padding is reached, [NameLbl] will decrease the size of it's text up to 50% and once that is reached, it will truncate the tail
+[DaysLeftLbl] does not change
+[DescriptionLbl] will be of variable height depending on its content
+[StatusLbl] will be of variable height depending on its content
